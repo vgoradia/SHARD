@@ -69,22 +69,23 @@ Signal attribution adds full interpretability at **zero cost to predictive accur
 
 ## Architecture
 
-Input: x ∈ R^(50 × 13) [50 timesteps × 13 diagnostic signals]
-↓
+```
+Input: x ∈ R^(50 × 13)    [50 timesteps × 13 diagnostic signals]
+         ↓
 Linear projection → d_model = 64
-↓
+         ↓
 Learnable positional encoding
-↓
+         ↓
 3× Temporal Attention Blocks (MHSA, n_heads=4, LayerNorm, Dropout)
-↓
+         ↓
 Mean pooling → g ∈ R^64
-↓
-┌─────────────────────────┬──────────────────────────────────┐
-│ Classifier MLP │ Signal Attribution Layer │
-│ g → 32 → ReLU → 1 │ g → 13 → Softmax = β ∈ R^13 │
-│ p_disrupt ∈ [0,1] │ per-signal importance weights │
-└─────────────────────────┴──────────────────────────────────┘
-
+         ↓
++-------------------------+----------------------------------+
+|  Classifier MLP         |  Signal Attribution Layer        |
+|  g -> 32 -> ReLU -> 1   |  g -> 13 -> Softmax = B ∈ R^13  |
+|  p_disrupt ∈ [0,1]      |  per-signal importance weights   |
++-------------------------+----------------------------------+
+```
 
 **Total parameters: 62,671** — designed for real-time inference in plasma control systems.
 
