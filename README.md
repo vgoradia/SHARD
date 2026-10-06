@@ -1,6 +1,6 @@
 # SHARD: Self-Attention Heuristics for Attentive Reactor Disruption
 
-**Transformer-based plasma disruption prediction with interpretable signal attribution**
+**Transformer-based plasma disruption prediction with interpretable signal attribution.**
 
 ---
 
