@@ -195,7 +195,7 @@ python cross_tokamak_eval.py
 ```bibtex
 @article{goradia2025shard,
   title={{SHARD}: Self-Attention Heuristics for Attentive Reactor Disruption Prediction with Interpretable Signal Attribution},
-  author={Goradia, Vihan},
+  author={Goradia, Veer},
   journal={arXiv preprint},
   year={2025}
 }
