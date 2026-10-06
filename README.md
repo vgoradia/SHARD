@@ -4,6 +4,8 @@
 
 SHARD is a lightweight transformer trained on plasma diagnostic time-series from the MIT Alcator C-Mod disruption database, predicting whether a tokamak plasma will disrupt within the next 50ms. Across 5 independent training runs, SHARD achieves a mean test ROC-AUC of 0.864 on C-Mod, outperforming the published state-of-the-art (HDL, 2021: 0.801) by 6.3 points under the same evaluation protocol. Beyond classification, SHARD identifies which plasma signals drove each prediction through a native signal attribution layer, and generalizes to unseen tokamaks (EAST, DIII-D) without device-specific retraining.
 
+**Live App:** https://shard-disruption.streamlit.app/
+
 ---
 
 ## Features
