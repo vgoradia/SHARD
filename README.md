@@ -104,21 +104,22 @@ streamlit run app.py
 
 ## Project Structure
 
+```
 SHARD/
-├── model.py # SHARD architecture + training loop
-├── train.py # Training script
-├── eval_full.py # Full evaluation pipeline
-├── baselines.py # Baseline comparisons (RF, LSTM)
-├── ablation.py # Ablation study
-├── ensemble_eval.py # 5-seed ensemble evaluation
-├── cross_tokamak.py # Leave-one-machine-out evaluation
-├── attribution_trajectory.py # Attribution heatmap over disruptive shot
-├── data_loader.py # Data loading and preprocessing
-├── app.py # Streamlit demo app
-├── requirements.txt # Python dependencies
-├── shard_refs.bib # Bibliography
-└── hf_model_card.md # HuggingFace model card
-
+  model.py                   # SHARD architecture + training loop
+  train.py                   # Training script
+  eval_full.py               # Full evaluation pipeline
+  baselines.py               # Baseline comparisons (RF, LSTM)
+  ablation.py                # Ablation study
+  ensemble_eval.py           # 5-seed ensemble evaluation
+  cross_tokamak.py           # Leave-one-machine-out evaluation
+  attribution_trajectory.py  # Attribution heatmap over disruptive shot
+  data_loader.py             # Data loading and preprocessing
+  app.py                     # Streamlit demo app
+  requirements.txt           # Python dependencies
+  shard_refs.bib             # Bibliography
+  hf_model_card.md           # HuggingFace model card
+```
 
 ---
 
