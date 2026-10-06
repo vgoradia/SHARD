@@ -2,10 +2,6 @@
 
 **Transformer-based plasma disruption prediction with interpretable signal attribution.**
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20Format-blue)](shard_paper.pdf)
-[![Model](https://img.shields.io/badge/Parameters-62%2C671-green)](model.py)
-[![ROC--AUC](https://img.shields.io/badge/ROC--AUC-0.864-orange)](shard_paper.pdf)
-
 ---
 
 ## Overview
