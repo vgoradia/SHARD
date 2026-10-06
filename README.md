@@ -2,9 +2,6 @@
 
 **Transformer-based plasma disruption prediction with interpretable signal attribution**
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20Format-blue)](shard_paper.pdf)
-[![Dataset](https://img.shields.io/badge/Dataset-DisruptionBench-green)](https://dataverse.harvard.edu)
-
 ---
 
 ## What is SHARD?
